@@ -14,15 +14,14 @@ selected_index = 0
 
 # Menus
 MENUS = {
-    'main': ["Wifi", "Bluetooth", "Settings", "Reboot", "Shutdown"],
-    'wifi': ["Sniffers", "Attacks", "Connect"],
+    'main': ["Wifi", "Settings", "Reboot", "Shutdown"],
+    'wifi': ["Sniffers", "Attacks"],
     'sniffers': ["4-way handshake", "AP scan", "Raw Sniff"],
     'apscan': ["Default"],
     'attacks': ["Deauth", "Beacon Flood"],
     'beacon_flood': ["Common-networks", "Personal-networks", "Random"],
     'deauth_methods': ["Single Target", "Entire Network", "Both 5ghz-4ghz"],
     'settings': ["Interface"],
-    'ssh': ["Enable", "Disable"],
     'interface': ["Restart", "Select"]
 }
 
