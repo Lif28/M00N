@@ -65,6 +65,15 @@ Start your Raspberrypi and configure the OS connecting the raspberry pi to your 
 sudo apt update && sudo apt upgrade -y
 sudo apt install python3 python3-pip git build-essential linux-headers-$(uname -r) -y
 ```
+### ENABLE SPI INTERFACE ON DIETPI
+
+### METHOD VIA DIETPI-CONFIG
+
+- Open dietpi-config tool: ```dietpi-config```
+- Navigate to: ```Advanced Options``` then press Enter
+- Select SPI: ```SPI state```
+- Enable SPI: ```Select Enable``` then Press Enter (dietpi might enable it automaticaly)
+- Exit and reboot: Exit dietpi-config, the system will automatically reboot.
 
 ### 2. WiFi Interface Driver Installation (rtl8812au)
 ```
@@ -85,7 +94,7 @@ sudo apt install nmap wireless-tools net-tools -y
 
 ### 4. Python Dependencies Installation
 ```
-sudo apt install python3-RPi.GPIO python3-pillow python3-psutil
+sudo apt install python3-RPi.GPIO python3-pillow python3-psutil python3-spidev python3-numpy
 ```
 
 ### 5. M00N Project Setup
