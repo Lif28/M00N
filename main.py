@@ -18,10 +18,9 @@ MENUS = {
     'wifi': ["Sniffers", "Attacks", "Connect"],
     'sniffers': ["4-way handshake", "AP scan", "Raw Sniff"],
     'apscan': ["Default"],
-    'attacks': ["Deauth", "Wps", "Beacon Flood"],
+    'attacks': ["Deauth", "Beacon Flood"],
     'beacon_flood': ["Common-networks", "Personal-networks", "Random"],
     'deauth_methods': ["Single Target", "Entire Network", "Both 5ghz-4ghz"],
-    'wps':["Wps Pin Bruteforce", "Wps Pixie Dust"],
     'settings': ["Interface"],
     'ssh': ["Enable", "Disable"],
     'interface': ["Restart", "Select"]
