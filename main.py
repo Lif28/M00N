@@ -22,7 +22,7 @@ MENUS = {
     'beacon_flood': ["Common-networks", "Personal-networks", "Random"],
     'deauth_methods': ["Single Target", "Entire Network", "Both 5ghz-4ghz"],
     'wps':["Wps Pin Bruteforce", "Wps Pixie Dust"],
-    'settings': ["Interface", "Ssh", "System"],
+    'settings': ["Interface"],
     'ssh': ["Enable", "Disable"],
     'interface': ["Restart", "Select"]
 }
