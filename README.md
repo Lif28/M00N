@@ -136,6 +136,8 @@ WantedBy=multi-user.target
 
 ### Check status:
 ```
+sudo systemctl enable moon.service
+sudo systemctl start moon.service
 sudo systemctl status moon.service
 ```
 
